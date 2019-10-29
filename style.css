@@ -41,6 +41,7 @@ a {
   text-decoration: none;
   color: black;
 }
+
 .content {
   width: 70%;
   margin: auto;
@@ -76,6 +77,21 @@ a {
   text-align: center;
   font-size: 30px;
   font-weight: 500;
+  position: relative;
+}
+.icon {
+  display: flex;
+  /* color: white; */
+  position: absolute;
+  top: 30px;
+  left: 46%;
+}
+.icon a {
+  padding: 10px;
+  color: white;
+}
+.icon a:hover {
+  color: red;
 }
 .footer:hover {
   background: lightslategray;
